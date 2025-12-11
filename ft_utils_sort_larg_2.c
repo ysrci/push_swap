@@ -59,7 +59,7 @@ void ft_move_to_top(t_node **a, t_node **b, t_node *node)
 {
     while (*b != node)
         rb(b);
-    while ((*a)->index != node->target_pos)
+    while ((*a)->pos != node->target_pos)
         ra(a);
 }
 
