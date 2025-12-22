@@ -2,8 +2,7 @@
 
 ## Description
 
-Push_swap is a project that aims to sort a stack of integers with the least number of operations possibl
-e. It includes two programs:
+Push_swap is a project that aims to sort a stack of integers with the least number of operations possible. It includes two programs:
 - `push_swao` generates a sequence of opratios to sort the stack.
 - `checker` verifies if a given sequence of operations sorts the stack correctly.
 

@@ -1,30 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   ft_bonus_utils.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yel-bakk <yel-bakk@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/06 11:14:52 by yel-bakk          #+#    #+#             */
-/*   Updated: 2025/12/07 11:22:09 by yel-bakk         ###   ########.fr       */
+/*   Created: 2025/12/22 14:57:12 by yel-bakk          #+#    #+#             */
+/*   Updated: 2025/12/22 15:00:47 by yel-bakk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "push_swap_bonus.h"
 
-int	ft_atoi(char *s)
+int	ft_is_sorted_bonus(t_node *stack)
 {
-	int		sign;
-	int		i;
-	long	result;
+	t_node	*tmp;
 
-	result = 0;
-	sign = 1;
-	i = ft_check_sign(s[0], &sign);
-	while (s[i] >= '0' && s[i] <= '9')
+	if (!stack || !stack->next)
+		return (1);
+	tmp = stack;
+	while (tmp->next)
 	{
-		result = result * 10 + (s[i] - '0');
-		i++;
+		if (tmp->value > tmp->next->value)
+			return (0);
+		tmp = tmp->next;
 	}
-	return ((int)(result * sign));
+	return (1);
 }

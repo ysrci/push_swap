@@ -1,39 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_pa_pb.c                                         :+:      :+:    :+:   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yel-bakk <yel-bakk@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/09 11:31:16 by yel-bakk          #+#    #+#             */
-/*   Updated: 2025/12/10 10:53:04 by yel-bakk         ###   ########.fr       */
+/*   Created: 2025/12/22 10:12:47 by yel-bakk          #+#    #+#             */
+/*   Updated: 2025/12/22 10:12:51 by yel-bakk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	pa(t_node **stack_a, t_node **stack_b)
+long	ft_atoi(char *str)
 {
-	t_node	*tmp;
+	long	result;
+	int		sign;
 
-	if (!stack_b || !stack_b)
-		return ;
-	tmp = *stack_b;
-	*stack_b = (*stack_b)->next;
-	tmp->next = *stack_a;
-	*stack_a = tmp;
-	write(1, "pa\n", 3);
-}
-
-void	pb(t_node **stack_a, t_node **stack_b)
-{
-	t_node	*tmp;
-
-	if (!stack_a || !*stack_a)
-		return ;
-	tmp = *stack_a;
-	*stack_a = (*stack_a)->next;
-	tmp->next = *stack_b;
-	*stack_b = tmp;
-	write(1, "pb\n", 3);
+	result = 0;
+	sign = 1;
+	if (*str == '-' || *str == '+')
+	{
+		if (*str == '-')
+			sign = -1;
+		str++;
+	}
+	while (*str >= '0' && *str <= '9')
+	{
+		result = result * 10 + (*str - '0');
+		str++;
+	}
+	return (result * sign);
 }

@@ -5,42 +5,46 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: yel-bakk <yel-bakk@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/08 09:46:50 by yel-bakk          #+#    #+#             */
-/*   Updated: 2025/12/10 15:43:26 by yel-bakk         ###   ########.fr       */
+/*   Created: 2025/12/22 10:21:18 by yel-bakk          #+#    #+#             */
+/*   Updated: 2025/12/22 10:51:22 by yel-bakk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_is_sorted(t_node	*stack)
+void	ft_is_sort(t_node **stack)
 {
-	while (stack && stack->next)
+	t_node	*tmp;
+
+	tmp = *stack;
+	while (tmp->next)
 	{
-		if (stack->value > stack->next->value)
-			return (0);
-		stack = stack->next;
+		if (tmp->value > tmp->next->value)
+			return ;
+		tmp = tmp->next;
 	}
-	return (1);
+	ft_free_stack(stack);
+	exit(0);
 }
 
 void	ft_sort_index(t_node *stack)
 {
 	t_node	*tmp1;
 	t_node	*tmp2;
-	int		idx;
+	int		index;
 
 	tmp1 = stack;
 	while (tmp1)
 	{
-		idx = 0;
+		index = 0;
 		tmp2 = stack;
 		while (tmp2)
 		{
 			if (tmp1->value > tmp2->value)
-				idx++;
+				index++;
 			tmp2 = tmp2->next;
 		}
-		tmp1->index = idx;
+		tmp1->index = index;
 		tmp1 = tmp1->next;
 	}
 }

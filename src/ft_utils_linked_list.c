@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_nodes.c                                         :+:      :+:    :+:   */
+/*   ft_utils_linked_list.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yel-bakk <yel-bakk@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/06 20:34:17 by yel-bakk          #+#    #+#             */
-/*   Updated: 2025/12/10 10:53:31 by yel-bakk         ###   ########.fr       */
+/*   Created: 2025/12/22 10:18:58 by yel-bakk          #+#    #+#             */
+/*   Updated: 2025/12/22 10:33:20 by yel-bakk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ void	ft_add_back(t_node **stack, t_node *new)
 {
 	t_node	*tmp;
 
-	if (!stack || !new)
-		return ;
 	if (!*stack)
 	{
 		*stack = new;
@@ -53,4 +51,41 @@ int	ft_stack_size(t_node *stack)
 		stack = stack->next;
 	}
 	return (count);
+}
+
+void	ft_free_stack(t_node **stack)
+{
+	t_node	*tmp;
+
+	if (!stack || !*stack)
+		return ;
+	while (*stack)
+	{
+		tmp = *stack;
+		*stack = (*stack)->next;
+		free(tmp);
+	}
+	*stack = NULL;
+}
+
+void	ft_has_duplicat(t_node	**stack)
+{
+	t_node	*tmp1;
+	t_node	*tmp2;
+
+	tmp1 = *stack;
+	while (tmp1)
+	{
+		tmp2 = tmp1->next;
+		while (tmp2)
+		{
+			if (tmp1->value == tmp2->value)
+			{
+				ft_free_stack(stack);
+				ft_exit_error();
+			}
+			tmp2 = tmp2->next;
+		}
+		tmp1 = tmp1->next;
+	}
 }
