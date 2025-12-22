@@ -15,8 +15,8 @@ The goal is to implement efficient algorithms and undestand stack manipulation.
 Run the following command in the project root: make
 
 ### Usage
-To sort in a sequence of operations work: ./push_swap 3 2 1
-To check in a sequence operations works: ./push_swap 3 2 1 | ./checker 3 2 1
+To sort in a sequence of operations work: `./push_swap 3 2 1`
+To check in a sequence operations works: `./push_swap 3 2 1 | ./checker 3 2 1`
 
 ## Resources
 
