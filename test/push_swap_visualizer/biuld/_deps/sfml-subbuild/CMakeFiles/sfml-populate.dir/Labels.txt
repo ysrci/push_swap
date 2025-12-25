@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

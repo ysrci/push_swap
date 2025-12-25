@@ -1,0 +1,3 @@
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

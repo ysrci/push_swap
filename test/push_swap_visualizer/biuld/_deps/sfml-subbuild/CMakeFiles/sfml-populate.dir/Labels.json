@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule"
+		},
+		{
+			"file" : "/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

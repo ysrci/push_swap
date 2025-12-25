@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/CMakeFiles/imgui-populate.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test.rule
+/home/yel-bakk/Desktop/push_swap_v3/push_swap_visualizer/biuld/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update.rule
